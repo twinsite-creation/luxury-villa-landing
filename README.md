@@ -4,7 +4,7 @@ A modern responsive landing page for a real estate project.
 Built as a portfolio project to demonstrate clean frontend development, responsive layouts, and structured web architecture.
 
 🔗 **Live Demo:**  
-https://nadjachernygina.github.io/Real-Estate-Landing/
+https://chernyginy-dev.github.io/luxury-villa-landing/
 
 ---
 
