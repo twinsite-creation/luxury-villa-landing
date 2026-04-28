@@ -1358,8 +1358,6 @@ section {
   align-items: center;
 }
 
-.contact-form-wrap {
-}
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1413,6 +1411,36 @@ section {
 .form-group textarea {
   height: 120px;
   resize: none;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.select-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  padding-right: 40px;
+}
+
+.select-wrapper::after {
+  content: "";
+  position: absolute;
+  right: 14px;
+  top: 48%;
+  transform: translateY(-50%);
+
+  width: 10px;
+  height: 10px;
+
+  border-right: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+  transform: translateY(-50%) rotate(45deg);
+
+  pointer-events: none;
 }
 .form-submit {
   font-family: var(--font-body);
